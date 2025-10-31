@@ -1,0 +1,57 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="BitManip/BitManip.vcxproj" Id="0d08fafa-c2ae-4075-98b0-6c0b8a65b718" />
+  <Project Path="BitManip256/BitManip256.vcxproj" Id="4578ba94-82e6-48dc-8076-1a488e1cec30">
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+  </Project>
+  <Project Path="CommonConfigDlg/CommonConfigDlg.vcxproj" Id="7ef274f5-eb73-43dd-b911-5d3dfe31c701">
+    <BuildDependency Project="BitManip256/BitManip256.vcxproj" />
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+    <BuildDependency Project="PreviewWindow/PreviewWindow.vcxproj" />
+    <BuildDependency Project="SliderEditControl/SliderEditControl.vcxproj" />
+    <BuildDependency Project="UtilDefAviUtl2/UtilDefAviUtl2.vcxproj" />
+  </Project>
+  <Project Path="CommonLib/CommonLib.vcxproj" Id="29fd6e5d-efcd-42ac-a839-030e4978c7b4">
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+  </Project>
+  <Project Path="DebugFnc/DebugFnc.vcxproj" Id="a4a15c6d-4541-4ff2-8bd5-f8ed82ce3520" />
+  <Project Path="DebugFncM256/DebugFncm256.vcxproj" Id="aad7a98c-114a-47a2-bcde-63f5e8a69686" />
+  <Project Path="DummyDlg/DummyDlg.vcxproj" Id="c8c3aa28-88af-40c0-b857-648ec7a5d42c">
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+  </Project>
+  <Project Path="PreviewWindow/PreviewWindow.vcxproj" Id="c4825c57-ecd1-4396-84df-c620a91d05b3">
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+  </Project>
+  <Project Path="RBFMaker/RBFMaker.vcxproj" Id="f2e2297d-a2c4-439c-9a59-35196ab8d472">
+    <BuildDependency Project="BitManip256/BitManip256.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+    <BuildDependency Project="DebugFncM256/DebugFncm256.vcxproj" />
+  </Project>
+  <Project Path="RBFReader/RBFReader.vcxproj" Id="72175fa9-df12-4894-b9a5-a6140deb010c">
+    <BuildDependency Project="CommonConfigDlg/CommonConfigDlg.vcxproj" />
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+    <BuildDependency Project="UtilDefAviUtl2/UtilDefAviUtl2.vcxproj" />
+  </Project>
+  <Project Path="SliderEditControl/SliderEditControl.vcxproj" Id="04fdf7a2-00ed-405f-8f97-4500d5c19216">
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+  </Project>
+  <Project Path="TestDlg/TestDlg.vcxproj" Id="7c3b20ea-5d1d-4541-b64b-c9c85eac7bc4">
+    <BuildDependency Project="BitManip256/BitManip256.vcxproj" />
+    <BuildDependency Project="CommonConfigDlg/CommonConfigDlg.vcxproj" />
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+    <BuildDependency Project="DebugFnc/DebugFnc.vcxproj" />
+    <BuildDependency Project="DummyDlg/DummyDlg.vcxproj" />
+    <BuildDependency Project="PreviewWindow/PreviewWindow.vcxproj" />
+    <BuildDependency Project="SliderEditControl/SliderEditControl.vcxproj" />
+    <BuildDependency Project="UtilDefAviUtl2/UtilDefAviUtl2.vcxproj" />
+  </Project>
+  <Project Path="UtilDefAviUtl2/UtilDefAviUtl2.vcxproj" Id="56c6c750-2ff1-4166-ab1f-2182dfab3011">
+    <BuildDependency Project="CommonLib/CommonLib.vcxproj" />
+  </Project>
+</Solution>
