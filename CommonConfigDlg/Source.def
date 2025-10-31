@@ -1,0 +1,6 @@
+﻿;LIBRARY CommonConfigDlg
+EXPORTS
+    DllGetClassObject
+    DllCanUnloadNow
+    DllRegisterServer
+    DllUnregisterServer
