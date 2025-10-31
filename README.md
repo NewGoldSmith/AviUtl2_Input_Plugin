@@ -24,7 +24,7 @@
 ソースをダウンロード後、**ビルドできるよう**に設定をします。このプログラム群はパワーシェルスクリプト（以下.ps1）も使っていることもあり、Windowsが.ps1の実行が許可されていないと、いきなりビルドしても途中でビルドエラーになってしまいます。まずはパワーシェル（以下PS）がビルド中に実行できるようにシステムを設定していきます。また、VisualStudio2022（以下VS）のプロジェクトファイルは、プロパティのデバッグ項目の設定がGitHubにアップロードされません。その為、手動での設定が必要になってきます。最終成果物はDLLであり、デバッグはAviutl2がプラグインと認識されるディレクトリに配置し、実行はAviutl2を起動しなくてはなりません。  
 ### ソースコードダウンロード  
 この記事で使うソースコードはGitHubから入手できます。  
-[https://github.com](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin.git) 
+[https://github.com](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin.git)  
 SDKを別途ダウンロードしたい場合は次のリンクからダウンロードできます。  
 [https://spring-fragrance.mints.ne.jp/aviutl](https://spring-fragrance.mints.ne.jp/aviutl)    
 
@@ -615,6 +615,7 @@ TCP/IP通信できるとの事なので、インターリーブで複数のframe
 # 終わりに
 　AviUtl、AviUtl2という素晴らしいソフトを公開して下さいましたKENくん様に感謝申し上げます。  
 また、読者様におかれましては、この記事が閃きのきっかけになれば幸いです。  
+
 
 
 
