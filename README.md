@@ -134,11 +134,10 @@ It was a success.
 test.rbfファイルをタイムラインに張り付けると  
 ![構成図](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin/blob/main/images/09paste.png)  
 の様に表示されます。  
-#### **注意**
-ファイルビューの**test.rbf**をダブルクリックしても関連付けられてないので、何も起動しません。**必ず**ドラッグアンドドロップまたは、同等の操作をして下さい。  
+#### **注意**  
+ファイルビューの**test.rbf**をダブルクリックしても関連付けられてないので、何も起動しません。**必ず**ドラッグアンドドロップまたは、同等の操作をして下さい。    
 タイムラインカーソル（赤の縦線を勝手に命名）を動かすと画像が変わっていきますでしょうか？  
 ![構成図](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin/blob/main/images/10TimeLineCursor.png)  
-
 
 ここで更に、エクスプローラービューでtesut.rbfをコピーして貼り付け、「**test - コピー.rbf**」ファイルを作って、これも張り付けてみましょう。  
 ![構成図](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin/blob/main/images/10-2.png)  
@@ -616,6 +615,7 @@ TCP/IP通信できるとの事なので、インターリーブで複数のframe
 # 終わりに
 　AviUtl、AviUtl2という素晴らしいソフトを公開して下さいましたKENくん様に感謝申し上げます。  
 また、読者様におかれましては、この記事が閃きのきっかけになれば幸いです。  
+
 
 
 
