@@ -1,4 +1,4 @@
-# **Aviutl2** 入力プラグインのたたき台（フレームワークにちょっと肉付けしたもの）を作ってみた
+# **AviUtl2** 入力プラグインのたたき台（フレームワークにちょっと肉付けしたもの）を作ってみた
 ![構成図](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin/blob/main/images/title.png?raw=true)  
 ![構成図](https://github.com/NewGoldSmith/AviUtl2_Input_Plugin/blob/main/images/title2.png?raw=true)
 # この記事の対象読者
@@ -615,6 +615,7 @@ TCP/IP通信できるとの事なので、インターリーブで複数のframe
 # 終わりに
 　AviUtl、AviUtl2という素晴らしいソフトを公開して下さいましたKENくん様に感謝申し上げます。  
 また、読者様におかれましては、この記事が閃きのきっかけになれば幸いです。  
+
 
 
 
